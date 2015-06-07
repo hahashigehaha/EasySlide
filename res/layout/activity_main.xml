@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+	
+    <com.moshangjian.easyslidanimation.EasySlide 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/slid" 
+        >
+<LinearLayout 
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+>        
+<TextView 
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:text="Please Slide  this View   you will  see magical !!"
+    android:textColor="@android:color/black"
+    android:textSize="27dp"
+    android:fontFamily="serif"
+    android:gravity="center"
+    android:padding="10dp"
+    />
+    
+    
+    
+    
+        <com.moshangjian.easyslidanimation.demo.PathLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+			android:paddingLeft="8dip"
+			android:paddingRight="8dip"
+            android:paddingTop="26dp"
+            android:paddingBottom="26dp" />
+            
+            
+            <com.moshangjian.easyslidanimation.demo.AlaphLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+			android:paddingLeft="8dip"
+			android:paddingRight="8dip"
+			android:background="@android:color/black"
+            android:paddingTop="26dp"
+            android:paddingBottom="26dp" />
+            
+            <com.moshangjian.easyslidanimation.demo.MoveLayout
+                
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+			android:paddingLeft="8dip"
+			android:paddingRight="8dip"
+			android:background="@android:color/white"
+			android:gravity="center"
+            android:paddingTop="26dp"
+            android:paddingBottom="26dp" />
+            
+            
+        </LinearLayout>
+    </com.moshangjian.easyslidanimation.EasySlide>
+</RelativeLayout>
+

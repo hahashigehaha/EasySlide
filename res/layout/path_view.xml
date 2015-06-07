@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <TextView
+                android:id="@+id/pathView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="7dip"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="When the cheese comes out everybody's happy pecorino red leicester"
+                android:textSize="18sp" />
+
+</merge>
